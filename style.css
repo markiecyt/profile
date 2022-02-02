@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #706993;
+  font-weight: 300;
+  background: -webkit-linear-gradient(top left, #735e79, #766DB6, #AF97A9);
+  background: -moz-linear-gradient(top left, #331E38 , #766DB6, #AF97A9);
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+img.img-circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 12% 50%;
+}
+
+.card-white {
+  background-color: rgba(240,240,240,0.7);
+  padding: 24px;
+  margin: 24px 0px;
+  border-radius: 4px;
+  box-shadow: 8px 8px 24px rgb(0 0 0 / 30%);
+  text-align: center;
+}
+#snowboarding {
+  color: #E3E5F3;
+  background-image: url("images/snowboarding.jpeg");
+  opacity: 0.8;
+  background-size: cover
+}
+
+#illustration {
+  background-image: url("images/drawing.jpeg");
+  opacity: 0.6;
+  background-size: cover
+}
+
+a.btn {
+  color: rgb(240,240,240);
+  padding: 10px 16px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none
+}
+
+a.btn:hover {
+  transition: 1s;
+}
+
+.purple {
+  background-color: #7E86C8;
+}
+
+.purple:hover {
+  background-color: #5848B6;
+}
+
+ul.list-inline {
+  padding: 0;
+  list-style: none;
+}
+
+ul.list-inline li {
+  display: inline;
+}
+
+ul.list-inline a {
+  font-size: 38px;
+  color: #706993;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
